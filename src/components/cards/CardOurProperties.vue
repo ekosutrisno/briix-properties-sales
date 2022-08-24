@@ -1,5 +1,5 @@
 <template>
-    <div class="lg:min-h-[300px] relative lg:p-4 lg:rounded-xl overflow-hidden hover:bg-white hover:shadow-custom lg:hover:scale-125 transition-all lg:cursor-pointer">
+    <div class="lg:min-h-[300px] relative lg:p-4 lg:rounded-xl overflow-hidden lg:hover:scale-125 transition-all lg:cursor-pointer">
         <img class="object-cover w-full h-full rounded-xl" :src="`/cards/${data.bgImg}`" :alt="data.bgImg">
         <div class="absolute inset-0 lg:inset-4 flex flex-col items-center justify-center rounded-xl bg-gradient-to-t from-black/20 to-black/5">
             <img :src="`/cards/logo/${data.logo}`" :alt="data.logo">
