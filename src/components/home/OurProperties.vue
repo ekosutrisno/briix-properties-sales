@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gradient-to-b from-[#C7E7F4]/40 to-[#FFFFFF]/0 briix-container lg:my-[42px] lg:-mt-10 lg:pt-10">
+    <section class="bg-gradient-to-b from-[#C7E7F4]/40 to-[#FFFFFF]/0 briix-container lg:mb-[42px] -mt-10 pt-10">
         <h1 class="font-manrope font-semibold text-2xl my-10 lg:text-5xl lg:leading-[72px] text-center">Our Properties</h1>
 
         <div class="grid gap-y-6 lg:grid-cols-4 lg:gap-6 lg:mt-[86px]">
