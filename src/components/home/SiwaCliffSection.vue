@@ -108,12 +108,18 @@
     </div>
 
 
+    <!-- Card of Properties -->
+    <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 lg:mt-[100px]">
+        <CardProperty v-for="(villa, idx) in villas" :key="idx" :villa="villa"/>
+    </div>
+
 
     </section>
 </template>
 
 <script>
 import CardFacility from '../cards/CardFacility.vue';
+import CardProperty from '../cards/CardProperty.vue';
 export default {
     data: () => ({
         facilities: [
@@ -215,14 +221,35 @@ export default {
                 col: false,
                 title: "3 Bathrooms"
             }
+        ],
+        villas: [
+            {
+                name: "Villa A",
+                img: "Villa1.png"
+            },
+            {
+                name: "Villa B",
+                img: "Villa2.png"
+            },
+            {
+                name: "Villa C",
+                img: "Villa2.png"
+            },
+            {
+                name: "Villa D",
+                img: "Villa4.png"
+            },
+            {
+                name: "Villa G",
+                img: "Villa5.png"
+            },
+            {
+                name: "Villa I",
+                img: "Villa6.png"
+            },
         ]
 
     }),
-    components: { CardFacility }
+    components: { CardFacility, CardProperty }
 }
 </script>
-<style>
-.shadow-custom-c1{
-    box-shadow: 15px 15px 40px rgba(10, 58, 79, 0.05);
-}
-</style>

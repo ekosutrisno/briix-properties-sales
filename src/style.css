@@ -18,6 +18,10 @@ body {
     box-shadow: 15px 15px 40px rgba(1, 68, 86, 0.1);
   }
 
+  .shadow-custom-c1 {
+    box-shadow: 15px 15px 40px rgba(10, 58, 79, 0.05);
+  }
+
   .shadow-cst {
     box-shadow: 15px 15px 40px rgba(12, 63, 84, 0.15);
   }
