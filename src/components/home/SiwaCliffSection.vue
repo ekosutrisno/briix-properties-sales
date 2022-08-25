@@ -225,26 +225,56 @@ export default {
         villas: [
             {
                 name: "Villa A",
+                price:"13,000,000,000",
+                address:"Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+                area: 261,
+                bed: 2,
+                bath: 2,
                 img: "Villa1.png"
             },
             {
                 name: "Villa B",
+                price:"13,000,000,000",
+                address:"Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+                area: 261,
+                bed: 2,
+                bath: 2,
                 img: "Villa2.png"
             },
             {
                 name: "Villa C",
+                price:"13,000,000,000",
+                address:"Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+                area: 261,
+                bed: 2,
+                bath: 2,
                 img: "Villa2.png"
             },
             {
                 name: "Villa D",
+                price:"13,000,000,000",
+                address:"Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+                area: 261,
+                bed: 2,
+                bath: 2,
                 img: "Villa4.png"
             },
             {
                 name: "Villa G",
+                price:"13,000,000,000",
+                address:"Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+                area: 261,
+                bed: 2,
+                bath: 2,
                 img: "Villa5.png"
             },
             {
                 name: "Villa I",
+                price:"13,000,000,000",
+                address:"Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+                area: 261,
+                bed: 2,
+                bath: 2,
                 img: "Villa6.png"
             },
         ]
