@@ -5,12 +5,6 @@
     <!-- Images Hero With Carrousel -->
     <div class="w-full lg:mt-10">
         <img class="h-full w-full object-cover" src="/img/hero-siwa-cliff.png" alt="siwa-cliff-bg">
-        <div class="absolute inset-0 hidden">
-            <div class="relative">
-                <div>Left</div>
-                <div>Right</div>
-            </div>
-        </div>
     </div>
 
     <!-- Masterplan Button -->
@@ -35,7 +29,7 @@
 
 
     <!-- Carrousel Fake Image -->
-    <div class="grid lg:grid-cols-12 lg:mt-[275px]">
+    <div class="lg:grid hidden lg:grid-cols-12 lg:mt-[275px]">
         <div class="col-span-3 cursor-pointer">
             <img class="h-full w-full object-cover" src="/img/Left.png" alt="left">
         </div>
@@ -57,7 +51,7 @@
             <p class="text-xl leading-[30px] tracking-[0.02em] text-briix-body text-left">The resort offers a club house, fitness center, spa and an area for business travelers to work and host meetings.</p>
         </div>
 
-        <div class="bg-white min-h-[351px] rounded-[15px] shadow-custom-c1 lg:mt-10 p-4 mt-10 lg:p-[65px]">
+        <div class="bg-white min-h-[351px] rounded-[15px] shadow-custom-c1 p-4 lg:mt-10 lg:p-[65px]">
             <div class="grid gap-4 lg:gap-7 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                 <CardFacility v-for="fac in facilities" :key="fac.id" :facility="fac" />
             </div>
@@ -65,30 +59,30 @@
     </div>
 
     <!-- Available Villas on the Market -->
-    <div class="lg:mt-[170px] briix-container">
-        <h1 class="text-center font-medium lg:text-[40px] leading-[56px] tracking-[0.03em]">Available Villas on the Market</h1>
+    <div class="lg:mt-[170px] px-5 lg:briix-container">
+        <h1 class="text-center font-medium text-2xl mt-10 lg:mt-0 lg:text-[40px] leading-[56px] tracking-[0.03em]">Available Villas on the Market</h1>
         
         <!-- Card Available -->
         <div class="w-full font-manrope overflow-hidden min-h-[488px] lg:mt-[100px] grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
             <div class="rounded-[15px] overflow-hidden lg:pr-10">
                 <img class="h-full w-full object-cover rounded-[15px]" src="/img/villa-k.png" alt="available-img">
             </div>
-            <div class="p-8">
-                <div class="flex items-center justify-between">
+            <div class="lg:p-8 p-4 py-8">
+                <div class="flex flex-col lg:flex-row lg:items-center justify-between">
                     <p class="text-4xl leading-[50px] font-bold">Villa K</p>
                     <p class="text-2xl leading-[33px] font-semibold text-briix-primary">IDR 13,000,000,000</p>
                 </div>
 
-                <div class="mt-4 text-xl leading-[34px] tracking-[0.02em] text-briix-body">
+                <div class="mt-4 lg:text-xl leading-[34px] tracking-[0.02em] text-briix-body">
                     VILLA K is a stunning three bedroom villa situated on the second row of villas on SIWA Cliffs first phase of developments. 
                 </div>
 
                 <!-- Facility -->
-                <div class="lg:mt-4 grid lg:gap-3 grid-cols-2">
+                <div class="lg:mt-4 grid lg:gap-3 lg:grid-cols-2">
                     <CardFacility  v-for="fac in villaKs" :key="fac.id" :facility="fac" />
                 </div>
 
-                <div class="lg:mt-5 inline-flex items-center justify-between lg:space-x-20 w-full">
+                <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 items-center justify-between lg:space-x-20 w-full">
                     <button type="button" class="rounded-full w-full border-2 hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-10 inline-flex items-center justify-center space-x-4">
                         <p>Live Chat</p>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +103,7 @@
 
 
     <!-- Card of Properties -->
-    <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 lg:mt-[100px]">
+    <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 mt-20 lg:mt-[100px]">
         <CardProperty v-for="(villa, idx) in villas" :key="idx" :villa="villa"/>
     </div>
 

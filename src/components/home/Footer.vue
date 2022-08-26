@@ -1,5 +1,9 @@
 <template>
     <section>
+        <Contact/>
+        <MobileAddsSection/>
+        <PreFooter/>
+
         <footer class="briix-container pt-6 lg:pt-12 bg-briix-blue-7 lg:h-[368px] p-5">
             <BriixLogoWhite />
             <div class="grid grid-cols-2 gap-4 mt-[30px] lg:mt-10 lg:grid-cols-12 lg:gap-4 text-briix-white border-b border-briix-blue-1/20 lg:pb-7">
@@ -64,7 +68,10 @@
 
 <script>
 import BriixLogoWhite from '../svg/BriixLogoWhite.vue';
+import Contact from './Contact.vue';
+import MobileAddsSection from './MobileAddsSection.vue';
+import PreFooter from './PreFooter.vue';
 export default {
-    components:{ BriixLogoWhite }
+    components:{ BriixLogoWhite, Contact, MobileAddsSection, PreFooter }
 }
 </script>
