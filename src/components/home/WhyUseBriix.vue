@@ -10,13 +10,13 @@
             <div class="grid lg:grid-cols-2">
                 <div class="lg:space-y-4 mt-2 lg:mt-0">
                     <div v-for="left in data.left" class="inline-flex items-center space-x-4">
-                        <ListStyle/>
+                        <ListStyle class="w-10 lg:w-auto"/>
                         <p class="lg:text-xl font-manrope leading-[20px] text-briix-body">{{ left }}</p>
                     </div>
                 </div>
                 <div class="lg:space-y-4 mt-2 lg:mt-0">
                     <div v-for="right in data.right" class="inline-flex items-center space-x-4">
-                        <ListStyle/>
+                        <ListStyle class="w-10 lg:w-auto"/>
                         <p class="lg:text-xl font-manrope leading-[20px] text-briix-body">{{ right }}</p>
                     </div>
                 </div>
