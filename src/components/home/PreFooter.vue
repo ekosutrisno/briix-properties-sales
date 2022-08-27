@@ -11,8 +11,8 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-semibold text-[28px] leading-[39px]">Properties, Financing & Leasing</h2>
-                        <p class="text-xl mt-2.5 leading-[30px] text-briix-body">Real Estate is an integral part of any diversified investment portfolio. We provide properties we believe in and with that, enables us to share risk with our members.</p>
+                        <h2 class="font-semibold text-2xl lg:text-[28px] leading-[39px]">Properties, Financing & Leasing</h2>
+                        <p class="lg:text-xl mt-2.5 leading-[30px] text-briix-body">Real Estate is an integral part of any diversified investment portfolio. We provide properties we believe in and with that, enables us to share risk with our members.</p>
                     </div>
                 </div>
 
@@ -32,8 +32,8 @@
                         </svg>
                     </div>
                     <div>
-                        <h2 class="font-semibold text-[28px] leading-[39px]">Fixed Income Returns</h2>
-                        <p class="text-xl mt-2.5 leading-[30px] text-briix-body">The key benefits of investing in fixed income is that they have lower associated risks and allows you to obtain periodic income.</p>
+                        <h2 class="font-semibold text-2xl lg:text-[28px] leading-[39px]">Fixed Income Returns</h2>
+                        <p class="lg:text-xl mt-2.5 leading-[30px] text-briix-body">The key benefits of investing in fixed income is that they have lower associated risks and allows you to obtain periodic income.</p>
                     </div>
                 </div>
             </div>

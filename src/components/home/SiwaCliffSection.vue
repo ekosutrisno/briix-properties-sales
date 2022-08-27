@@ -9,7 +9,7 @@
 
     <!-- Masterplan Button -->
     <div class="my-24 mx-auto text-center">
-        <div class="space-x-8">
+        <div class="lg:space-x-8 space-y-8 lg:space-y-0">
             <button type="button" class="rounded-full py-2.5 px-[30px] hover:shadow-cst border bg-briix-blue-1 text-briix-primary">The Masterplan</button>
             <button type="button" class="rounded-full py-2.5 px-[30px] hover:shadow-cst border bg-[#F9F9F9] text-[#A6A6A6]">Masterplan Isolated Night</button>
         </div>
@@ -17,12 +17,12 @@
 
     <!-- Masterplan -->
     <div class="relative">
-        <div class="absolute text-right lg:right-[100px] top-0 lg:max-w-lg font-manrope">
+        <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg font-manrope">
             <div class="inline-flex items-center space-x-5">
-                <div class="h-0.5 mb-5 bg-briix-primary w-[100px]"></div>
-                <h1 class="text-[40px] lg:mb-[30px] font-semibold leading-[56px] text-right">The Master Plan</h1>
+                <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
+                <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master Plan</h1>
             </div>
-            <p class="text-xl leading-[30px] tracking-[0.02em] text-briix-body text-right">The SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok with it's unique approach to sustainability through design, service and living.</p>
+            <p class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-body text-right">The SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok with it's unique approach to sustainability through design, service and living.</p>
         </div>
         <img src="/img/MasterplanLight.png" alt="master-plan-light">
     </div>
@@ -44,14 +44,14 @@
     <!-- Facilities -->
     <div class="font-manrope briix-container mt-20 lg:mt-[170px]">
         <div>
-            <div class="inline-block lg:inline-flex items-center space-x-5">
-                <div class="h-0.5 mb-5 bg-briix-primary w-[100px]"></div>
-                <h1 class="text-[40px] lg:mb-[5px] font-semibold leading-[56px] text-left">The Facilities.</h1>
+            <div class="inline-flex items-center space-x-5">
+                <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
+                <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-semibold leading-[56px] text-left">The Facilities.</h1>
             </div>
-            <p class="text-xl leading-[30px] tracking-[0.02em] text-briix-body text-left">The resort offers a club house, fitness center, spa and an area for business travelers to work and host meetings.</p>
+            <p class="lg:text-xl leading-relaxed lg:leading-[30px] tracking-[0.02em] text-briix-body text-left">The resort offers a club house, fitness center, spa and an area for business travelers to work and host meetings.</p>
         </div>
 
-        <div class="bg-white min-h-[351px] rounded-[15px] shadow-custom-c1 p-4 lg:mt-10 lg:p-[65px]">
+        <div class="bg-white min-h-[351px] rounded-[15px] shadow-custom-c1 px-4 py-10 lg:mt-10 lg:p-[65px]">
             <div class="grid gap-4 lg:gap-7 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                 <CardFacility v-for="fac in facilities" :key="fac.id" :facility="fac" />
             </div>
@@ -63,22 +63,22 @@
         <h1 class="text-center font-medium text-2xl mt-10 lg:mt-0 lg:text-[40px] leading-[56px] tracking-[0.03em]">Available Villas on the Market</h1>
         
         <!-- Card Available -->
-        <div class="w-full font-manrope overflow-hidden min-h-[488px] lg:mt-[100px] grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
+        <div class="w-full font-manrope overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
             <div class="rounded-[15px] overflow-hidden lg:pr-10">
                 <img class="h-full w-full object-cover rounded-[15px]" src="/img/villa-k.png" alt="available-img">
             </div>
             <div class="lg:p-8 p-4 py-8">
                 <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                    <p class="text-4xl leading-[50px] font-bold">Villa K</p>
-                    <p class="text-2xl leading-[33px] font-semibold text-briix-primary">IDR 13,000,000,000</p>
+                    <p class="lg:text-4xl text-2xl leading-[50px] font-bold">Villa K</p>
+                    <p class="lg:text-2xl leading-[33px] font-semibold text-briix-primary">IDR 13,000,000,000</p>
                 </div>
 
-                <div class="mt-4 lg:text-xl leading-[34px] tracking-[0.02em] text-briix-body">
+                <div class="mt-4 lg:text-xl leading-relaxed lg:leading-[34px] tracking-[0.02em] text-briix-body">
                     VILLA K is a stunning three bedroom villa situated on the second row of villas on SIWA Cliffs first phase of developments. 
                 </div>
 
                 <!-- Facility -->
-                <div class="lg:mt-4 grid lg:gap-3 lg:grid-cols-2">
+                <div class="mt-4 grid lg:gap-3 lg:grid-cols-2">
                     <CardFacility  v-for="fac in villaKs" :key="fac.id" :facility="fac" />
                 </div>
 
